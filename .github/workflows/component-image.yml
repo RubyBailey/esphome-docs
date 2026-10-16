@@ -43,7 +43,7 @@ jobs:
     needs: prepare
     steps:
       - name: Generate
-        uses: esphome/component-image-generator@v1.0.0
+        uses: esphome/component-image-generator@v2.0.0
         with:
           component: ${{ needs.prepare.outputs.name }}
 
